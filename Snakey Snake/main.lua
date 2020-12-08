@@ -180,7 +180,5 @@ function love.draw()
     love.graphics.setColor(1, .3, .3)
     drawCell(foodPosition.x, foodPosition.y)
 
-    love.graphics.setColor(0, 1, 1, 1)
-    love.graphics.rectangle("fill", 400, 0, 20, 400 )
     
 end
